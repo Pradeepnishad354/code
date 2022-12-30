@@ -2,10 +2,12 @@ package com.test.service;
 
 import com.test.entity.User;
 
-public class UserService {
+public interface UserService {
 
+User saveUser(User user);
+
+public boolean checkEmail(String email);
 	
-
 	
 	
 }
